@@ -47,6 +47,22 @@ Then, depending on the task:
 | Naming something new | `references/naming-rules.md` | 2–3 candidate names with rationale and rejections |
 | Auditing existing material for drift | `references/audit.md` | A findings table, ranked by advertiser impact |
 
+## This skill is a layer, not the deliverable
+
+Terminology discipline sits on top of the work; it does not replace it. A
+naming task still owes candidates and rationale. A UI copy task still owes
+surface variants, plural forms, character budgets, accessibility treatment,
+localization notes, and a copy deck the engineer can paste — the things that
+make it handoff-ready.
+
+This matters because flagging gaps is visible and satisfying, and it is easy to
+produce a page of careful open questions attached to a thinner deliverable than
+the task deserved. Testing showed exactly that: the terminology sections grew
+while the copy deck and surface variants went missing. If you notice yourself
+spending more on the caveats than the work, the balance is wrong.
+
+Get the deliverable right first. Then apply the terminology rules to it.
+
 ## Applying terms while writing
 
 Use the canonical term on first mention and stay on it. Do not elegantly vary —
