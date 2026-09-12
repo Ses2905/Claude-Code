@@ -71,13 +71,19 @@ Three checks before you hand back any advertiser-facing text:
 Conflicts are the normal case in a fragmented org, and resolving them silently
 is the failure mode — it buries a real decision inside a document edit.
 
-Surface the conflict, recommend a resolution, and say what it costs:
+Surface the conflict, recommend a resolution, and say what it costs. Shape it
+like this — the content is an invented illustration, not a real Walmart
+conflict, so do not repeat this example as fact:
 
-> **Conflict.** The campaign setup flow says "daily budget"; the API docs and
-> the reporting export say "budget cap". These are the same field.
-> **Recommendation.** "Daily budget" — it is what advertisers say out loud, and
-> it is the term in the higher-traffic surface.
-> **Cost.** API field rename, or a documented alias. Not free; needs a decision.
+> **Conflict.** Surface A calls this field <term 1>; surface B calls it
+> <term 2>. They are the same field.
+> **Recommendation.** <term> — because <advertiser-language reason>.
+> **Cost.** <what has to change>. Not free; needs a decision from <owner>.
+
+Report only conflicts you actually observed in material in front of you. An
+illustrative example in a skill file is not evidence that two Walmart surfaces
+disagree, and repeating one as though it were a finding is the same failure as
+inventing a term.
 
 If the registry already resolves it, just apply the registry and note that you
 did. If the registry is silent, the conflict is a finding — add it to
